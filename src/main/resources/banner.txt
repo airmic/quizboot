@@ -1,0 +1,7 @@
+${AnsiBackground.BLUE}
+${AnsiColor.BRIGHT_RED}${AnsiBackground.BLUE} ,-----.             ,--.         ,-----.                     ,--.
+${AnsiColor.BRIGHT_RED}${AnsiBackground.BLUE}'  .-.  '   ,--.,--. `--' ,-----. |  |) /_   ,---.   ,---.  ,-'  '-.
+${AnsiColor.BRIGHT_RED}${AnsiBackground.BLUE}|  | |  |   |  ||  | ,--. `-.  /  |  .-.  \ | .-. | | .-. | '-.  .-'
+${AnsiColor.BRIGHT_RED}${AnsiBackground.BLUE}'  '-'  '-. '  ''  ' |  |  /  `-. |  '--' / ' '-' ' ' '-' '   |  |
+${AnsiColor.BRIGHT_RED}${AnsiBackground.BLUE}`-----'--'  `----'  `--' `-----' `------'   `---'   `---'    `--'
+${AnsiBackground.BLUE}

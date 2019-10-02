@@ -1,0 +1,4 @@
+question:
+  resource: /i18n/%s/quiz.csv
+default:
+  language: ru
