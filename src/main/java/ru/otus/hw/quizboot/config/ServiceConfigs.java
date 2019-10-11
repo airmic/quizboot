@@ -1,6 +1,7 @@
 package ru.otus.hw.quizboot.config;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.context.MessageSource;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -40,6 +41,7 @@ public class ServiceConfigs {
     }
 
     @Bean
+    @ConfigurationProperties(prefix = "quiz")
     public QuizSettings quizSettings() {
         return new QuizSettings();
     }
