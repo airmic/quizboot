@@ -25,6 +25,6 @@ public class QuizbootApplication implements CommandLineRunner {
 
     @Override
     public void run(String... args)  {
-        questionService.executeQuiz();
+//        questionService.executeQuiz();
     }
 }
