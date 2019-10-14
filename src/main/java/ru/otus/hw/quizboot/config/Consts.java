@@ -10,4 +10,5 @@ public class Consts {
     public static final String ANSWER_CNT_RIGHT = "answer.cnt.right";
     public static final String ANSWER_CNT_WRONG = "answer.cnt.wrong";
     public static final String QUIZ_FINISHED = "quiz.finished";
+    public static final String QUIZ_DIR="quiz.dir";
 }

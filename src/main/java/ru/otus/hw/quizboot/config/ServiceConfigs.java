@@ -42,7 +42,8 @@ public class ServiceConfigs {
 
     @Bean
     @ConfigurationProperties(prefix = "quiz")
-    public QuizSettings quizSettings() {
-        return new QuizSettings();
+    @Autowired
+    public QuizSettings quizSettings(MessageSource messageSource) {
+        return new QuizSettings(messageSource);
     }
 }

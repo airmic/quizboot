@@ -39,8 +39,8 @@ public class AnswerDaoCsv implements AnswerDao {
 
         answerList.clear();
 
-        String locFilename = String.format(quizSettings.getFileNameTemplate(), quizSettings.getLocale().getLanguage());
-        try (BufferedReader br = new BufferedReader(new InputStreamReader(this.getClass().getResourceAsStream(locFilename)))) {
+//        String locFilename = String.format(quizSettings.getFileNameTemplate(), quizSettings.getLocale().getLanguage());
+        try (BufferedReader br = new BufferedReader(new InputStreamReader(this.getClass().getResourceAsStream(quizSettings.getResultFileName())))) {
 
             String csvLine;
             String[] splitedCsvLine;
