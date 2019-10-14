@@ -10,8 +10,8 @@ import ru.otus.hw.quizboot.domain.Answer;
 @Component
 public class QuestionServiceImp implements QuestionService {
 
-    private AnswerDao dao;
-    private CommunicateService communicateService;
+    private final AnswerDao dao;
+    private final CommunicateService communicateService;
 
 
     @Autowired
