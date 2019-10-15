@@ -1,0 +1,3 @@
+quiz:
+  fileNameTemplate: /i18n/%s/quiz.csv
+  locale: ru
